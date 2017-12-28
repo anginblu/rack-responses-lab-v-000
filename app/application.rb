@@ -10,7 +10,7 @@ class Application
     if time
       resp.write "Good Morning!"
     else
-      resp.write "You Lose"
+      resp.write "Good Afternoon!"
     end
 
     resp.finish
