@@ -3,9 +3,7 @@ class Application
   def call(env)
     resp = Rack::Response.new
 
-    time = Kernel.rand(1..20)
-    num_2 = Kernel.rand(1..20)
-    num_3 = Kernel.rand(1..20)
+    time = Rack::RequestTime.current
 
     resp.write "#{num_1}\n"
     resp.write "#{num_2}\n"
