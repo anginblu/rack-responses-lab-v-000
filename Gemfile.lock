@@ -17,6 +17,7 @@ GEM
       rack
     rack-test (0.6.3)
       rack (>= 1.0)
+    rack-timestamp (1.1.0)
     rspec (3.3.0)
       rspec-core (~> 3.3.0)
       rspec-expectations (~> 3.3.0)
@@ -41,6 +42,7 @@ DEPENDENCIES
   rack
   rack-request_time
   rack-test
+  rack-timestamp (~> 1.1)
   rspec
 
 BUNDLED WITH
