@@ -6,12 +6,6 @@ class Application
     env[:timestamp] = Time.now
     resp.write "#{Time.now}"
 
-    if time
-      resp.write "Good Morning!"
-    else
-      resp.write "Good Afternoon!"
-    end
-
     resp.finish
   end
 
