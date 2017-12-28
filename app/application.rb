@@ -6,9 +6,9 @@ class Application
     time = Rack::RequestTime.current
 
     resp.write "#{time}"
-    
+
     if time
-      resp.write "You Win"
+      resp.write "Good Morning!"
     else
       resp.write "You Lose"
     end
